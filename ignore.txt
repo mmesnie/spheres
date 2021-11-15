@@ -1,4 +1,4 @@
-#svn propset svn:ignore -F ignore.txt 
+#svn propset svn:ignore -F ignore.txt .
 mp0
 mp1
 mp2
