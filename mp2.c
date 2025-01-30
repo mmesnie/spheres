@@ -103,7 +103,7 @@ void main(int argc, char** argv)
  * <left arrow> translates the polygon 10 pixels leftward 
  * <right arrow> translates the polygon 10 pixels rightward 
  * "</," rotates the polygon 15 degrees counterclockwise 
- * ">/>" rotates the polygon 15 degrees clockwise 
+ * ">/." rotates the polygon 15 degrees clockwise 
  * "[/{" scales along the y axis by -10% 
  * "]/}" scales along the y axis by +10% 
  * "-/_" scales along the x axis by -10% 
@@ -111,7 +111,6 @@ void main(int argc, char** argv)
  * "i/I" resets all tranformations
  * "f/F" reflects the polygon about the line
  *       defined by the reflection and rotation points
- * 
  */
 
 void SpecialKeyboard(int key, int x, int y) {
@@ -375,6 +374,7 @@ void Display(void)
   glBegin(GL_POINTS);
     glVertex2i(rotVertexX, rotVertexY);
   glEnd();
+  glFlush();
 }
 
 /*
