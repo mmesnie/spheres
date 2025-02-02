@@ -7,4 +7,4 @@ Ubuntu 18 build instructions
 - sudo apt-get install libxi-dev
 - make
 
-![Alt text](screenshot.png?raw=true "screenshot of spheres")
+![Alt text](screenshot.png?raw=true)
