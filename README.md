@@ -6,3 +6,5 @@ Ubuntu 18 build instructions
 - sudo apt-get install libxmu-dev libxmu-headers
 - sudo apt-get install libxi-dev
 - make
+
+![Alt text](screenshot.png?raw=true "screenshot of spheres")
