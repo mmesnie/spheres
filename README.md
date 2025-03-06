@@ -1,4 +1,4 @@
-UIUC Graphics 318 (circa 1996-1998)
+UIUC Graphics 318. Circa 1996.
 
 Ubuntu 18 build instructions
 
